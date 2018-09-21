@@ -9,9 +9,6 @@ parser.add_argument('s', type=str, help='s integer for the accumulator')
 parser.add_argument('l', type=str, help='l integer for the accumulator')
 args = parser.parse_args()
 
-
-
-
 class Found:
     def __init__(self):
         pass
@@ -34,7 +31,6 @@ class Found:
             var = seq.ratio()
             if var > 0.5:
                 print(seq.ratio(), "\t", i)
-
 
 # s = "http://qaru.site/questions/182288/how-to-receive-json-data-using-http-post-request-in-django-16"
 # s = 'https://www.google.ru/'
